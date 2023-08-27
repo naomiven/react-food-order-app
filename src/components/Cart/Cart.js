@@ -23,7 +23,7 @@ const Cart = (props) => {
           name={item.name}
           amount={item.amount}
           price={item.price}
-          // Ensures that the id/itemto be removed/added is passed in the
+          // Ensures that the id/item to be removed/added is passed in the
           // handlers
           onRemove={cartItemRemoveHandler.bind(null, item.id)}
           onAdd={cartItemAddHandler(null, item)}
